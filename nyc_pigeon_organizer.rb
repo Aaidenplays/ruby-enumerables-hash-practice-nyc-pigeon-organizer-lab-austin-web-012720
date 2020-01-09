@@ -1,8 +1,9 @@
 require 'pry'
 
 def set_name_keys (data)
+  binding.pry
   new_hash = {}
-  new_hash = 
+  data.detect
 end
 
 def set_name_colors(data)
@@ -18,5 +19,5 @@ def set_name_gender(data)
 end
 
 def nyc_pigeon_organizer(data)
-  binding.pry
+  set_name_keys
 end
