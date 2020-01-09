@@ -1,7 +1,8 @@
 require 'pry'
 
 def set_name_keys (data)
-  
+  new_hash = {}
+  new_hash = 
 end
 
 def set_name_colors(data)
