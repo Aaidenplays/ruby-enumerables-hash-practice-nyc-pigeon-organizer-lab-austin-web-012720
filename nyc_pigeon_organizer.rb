@@ -1,10 +1,9 @@
 require 'pry'
 
 def set_name_keys (data)
-  binding.pry
   new_hash = {}
   data.each { |n| new_hash <<  n}
-  
+  binding.pry
 end
 
 def set_name_colors(data)
