@@ -19,5 +19,5 @@ def set_name_gender(data)
 end
 
 def nyc_pigeon_organizer(data)
-  set_name_keys
+  set_name_keys(data)
 end
