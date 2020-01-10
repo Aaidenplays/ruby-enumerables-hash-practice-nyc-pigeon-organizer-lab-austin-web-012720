@@ -25,6 +25,7 @@ def set_name_colors(data, new_hash)
                                 end
                       end
             end
+
 end
 
 binding.pry
