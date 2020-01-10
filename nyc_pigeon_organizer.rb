@@ -24,9 +24,9 @@ def nyc_pigeon_organizer(data)
         array.each do |name|
           if new_hash.has_key?(name)
             new_hash[name] = {}
-            binding.pry
           end
-          
+                      binding.pry
+
         end
       end
     end
