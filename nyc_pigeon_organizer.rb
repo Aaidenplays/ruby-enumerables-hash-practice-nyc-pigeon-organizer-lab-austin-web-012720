@@ -3,7 +3,7 @@ require 'pry'
 def set_name_keys (data)
   new_hash = {}
   tester = []
-  data.each { |n| n.detect()}
+  data.each { |n| n.detect {|i| }}
   binding.pry
 end
 
