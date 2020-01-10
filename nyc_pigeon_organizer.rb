@@ -4,7 +4,7 @@ def set_name_keys (data)
   new_hash = {}
   tester = []
   #data.each {|n| n.each{|i| new_hash.include?(i).push}}
-  tester = data.map
+  data.map{|n| tester << n}
   binding.pry
 end
 
