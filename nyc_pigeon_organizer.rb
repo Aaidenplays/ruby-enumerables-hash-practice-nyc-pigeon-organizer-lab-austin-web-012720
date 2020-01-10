@@ -22,6 +22,7 @@ def set_name_colors(data, new_hash)
                                 if !new_hash.has_key?(attributes)
                                   new_hash[name][attributes] = []
                                 end
+                                end
                       end
             end
 end
