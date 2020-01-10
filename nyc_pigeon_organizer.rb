@@ -2,7 +2,7 @@ require 'pry'
 
 def set_name_keys (data)
 
-  binding.pry
+
 end
 
 def set_name_colors(data)
