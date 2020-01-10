@@ -49,9 +49,9 @@ def nyc_pigeon_organizer(data)
   final_hash = set_values(data, colored_hash)
   binding.pry
   
-  final_hash.each do |name_hash, attributes|
+  # final_hash.each do |name_hash, attributes|
           
-                  end
+  #                 end
 
   final_hash
 end
