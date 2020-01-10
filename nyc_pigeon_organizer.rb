@@ -33,7 +33,7 @@ def set_values(data, new_hash)
     data_hash.each do |attributes, array|
       array.each do |name|
         if !array.include?(new_hash[name])
-          new_hash[name][first_keys] << array
+          new_hash[name][first_keys] << attributes
         end
                  end
                    end
