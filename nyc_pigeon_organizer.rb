@@ -25,21 +25,19 @@ def set_attributes_keys(data, new_hash)
                       end
             end
 binding.pry
+new_hash
 end
 
 
-def set_values(data)
+def set_values(data, new_hash)
   
 end
 
-def set_name_gender(data)
-  
-end
 
 def nyc_pigeon_organizer(data)
   named_hash = set_name_keys(data)
   colored_hash = set_attributes_keys(data, named_hash)
-  
+  final_hash = set_values(data, colored_hash)
 
 
   new_hash
