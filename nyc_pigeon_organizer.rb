@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
         end
       end
     end
-          binding.pry
+          #binding.pry
 
   #set_name_keys(data)
   new_hash
