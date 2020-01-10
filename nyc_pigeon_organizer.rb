@@ -16,6 +16,8 @@ end
 
 def set_name_colors(data, new_hash)
   name = ''
+  
+  
   data.each do |first_keys, data_hash|
         data_hash.each do |attributes, array|
                       array.each do |name|
