@@ -15,11 +15,18 @@ new_hash
 end
 
 def set_name_colors(data, new_hash)
+  name = ''
   data.each do |first_keys, data_hash|
-        
+        data_hash.each do |attributes, array|
+                      array.each do |name|
+                                if !new_hash.has_key?(attributes)
+                                  new_hash[name][attributes] = []
+                                end
+                      end
             end
 end
 
+binding.pry
 def set_name_lives(data)
   
 end
