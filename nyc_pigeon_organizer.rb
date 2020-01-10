@@ -27,9 +27,9 @@ def set_name_gender(data)
 end
 
 def nyc_pigeon_organizer(data)
-
-
-
   new_hash = set_name_keys(data)
+  new_hash = set_name_colors(data)
+
+
   new_hash
 end
