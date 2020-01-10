@@ -24,7 +24,16 @@ end
 
 def nyc_pigeon_organizer(data)
   new_hash = {}
-  data.each do |first_keys, second_keys|
+  data.each do |first_keys, data_hash|
+    data_hash.each do |attributes, array|
+        array.each do |name|
+          if new_hash.has_key(name)
+            new_hash[name] = {
+                                color: 
+                                
+                              }
+        end
+      end
     end
   
   
