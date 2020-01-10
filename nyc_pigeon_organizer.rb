@@ -22,6 +22,7 @@ def nyc_pigeon_organizer(data)
   data.each do |first_keys, data_hash|
     data_hash.each do |attributes, array|
         array.each do |name|
+  binding.pry
           
           if new_hash.has_key?(name)
             new_hash[name] = {}
@@ -30,6 +31,5 @@ def nyc_pigeon_organizer(data)
       end
     end
   
-  binding.pry
   #set_name_keys(data)
 end
