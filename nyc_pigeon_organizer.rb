@@ -30,6 +30,6 @@ def nyc_pigeon_organizer(data)
     end
 
 
-  #set_name_keys(data)
+  new new_hash = set_name_keys(data)
   new_hash
 end
