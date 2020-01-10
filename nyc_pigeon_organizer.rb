@@ -37,7 +37,7 @@ def nyc_pigeon_organizer(data)
   named_hash = set_name_keys(data)
   colored_hash = set_attributes_keys(data, named_hash)
   final_hash = set_values(data, colored_hash)
-binding.pry
+  binding.pry
 
 
   new_hash
