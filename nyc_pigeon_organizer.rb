@@ -39,6 +39,7 @@ def set_values(data, new_hash)
                    end
             end
 #binding.pry
+new_hash
 end
 
 
