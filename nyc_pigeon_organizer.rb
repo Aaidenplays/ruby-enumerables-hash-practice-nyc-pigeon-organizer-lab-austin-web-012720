@@ -14,7 +14,7 @@ def set_name_keys (data)
 new_hash
 end
 
-def set_attributes(data, new_hash)
+def set_attributes_keys(data, new_hash)
   data.each do |first_keys, data_hash|
         data_hash.each do |attributes, array|
                       array.each do |name|
@@ -28,7 +28,7 @@ binding.pry
 end
 
 
-def set_name_lives(data)
+def set_values(data)
   
 end
 
@@ -38,7 +38,7 @@ end
 
 def nyc_pigeon_organizer(data)
   named_hash = set_name_keys(data)
-  colored_hash = set_attributes(data, named_hash)
+  colored_hash = set_attributes_keys(data, named_hash)
   
 
 
