@@ -26,7 +26,7 @@ def set_name_colors(data, new_hash)
         data_hash.each do |attributes, array|
                       array.each do |name|
                                 if !new_hash.has_key?(attributes)
-                                  new_hash[name][attributes] = []
+                                  new_hash[name][first_keys] = []
                                 end
                                 end
                       end
