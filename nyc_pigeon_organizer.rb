@@ -28,10 +28,7 @@ def nyc_pigeon_organizer(data)
     data_hash.each do |attributes, array|
         array.each do |name|
           if new_hash.has_key(name)
-            new_hash[name] = {
-                                color: 
-                                
-                              }
+            new_hash[name] = {}
         end
       end
     end
